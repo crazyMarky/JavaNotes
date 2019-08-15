@@ -1,6 +1,8 @@
-module.exports = {
+﻿module.exports = {
     title: 'crazyMarky的学习库', 
     description: '一个Java后端的必经之路',
+    base: '/JavaNotes',
+    dest: './docs/.vuepress/dist',
     head: [
         ['link', { rel: 'icon', href: '/img/logo.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
