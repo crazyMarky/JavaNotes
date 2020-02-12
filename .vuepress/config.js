@@ -1,8 +1,7 @@
 ﻿module.exports = {
     title: 'crazyMarky的学习库', 
     description: '一个Java后端的必经之路',
-    base: '/JavaNotes',
-    dest: './docs/.vuepress/dist',
+    base: '/',
     head: [
         ['link', { rel: 'icon', href: '/img/logo.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -16,6 +15,7 @@
 			  { text: '持有对象', link: '/java_basic/collections/' },
 			  { text: 'Java I/O', link: '/java_basic/IO/' },
 			  { text: '并发编程', link: '/java_basic/concurrency/' },
+			  { text: 'JVM', link: '/java_basic/JVM/' },
 			  { text: 'JDK', link: '/java_basic/JDK/' }
 			] 
 		  },
